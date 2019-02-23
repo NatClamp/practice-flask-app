@@ -4,5 +4,23 @@
         "age": 25,
         "role": "Junior FE Developer",
         "company": "MirrorWeb",
+    },
+    "ASpittel": {
+        "name": "Ali Spittel",
+        "age": 26,
+        "role": "Software Engineer",
+        "company": "General Assembly",
+    },
+    "simply_cima": {
+        "name": "Stacie Taylor-Cima",
+        "age": 32,
+        "role": "Support Engineer",
+        "company": "Zapier",
+    },
+    "pinglinh": {
+        "name": "Linh Nguyen My",
+        "age": 26,
+        "role": "Software Engineer",
+        "company": "LEGO",
     }
 }
