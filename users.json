@@ -4,17 +4,5 @@
         "age": 25,
         "role": "Junior FE Developer",
         "company": "MirrorWeb",
-    },
-    "claireinez": {
-        "name": "Claire Inez",
-        "age": 28,
-        "job": "Software Developer",
-        "company": "Deliveroo",
-    },
-    "harri_etty": {
-        "name": "Harriet Ryder",
-        "age": 25,
-        "job": "Software Engineer",
-        "company": "Formisimo",
-    },
+    }
 }
