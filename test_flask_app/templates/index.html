@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>CATS AND DOGS YO</h1>
+    {% for person in users %}
+        <p>{{ person.name }}</p>
+    {% endfor %}
+{% endblock %}

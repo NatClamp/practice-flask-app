@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "test_flask_app"
+version = "2019.02"
+description = "a test flask app"
+authors = ["Natalie Clamp <natalie.clamp@mirrorweb.com>"]
+license = "MirrorWeb"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^1.0"
+
+[tool.poetry.dev-dependencies]
+coverage = "^4.5"
+sphinx = "^1.8"
+flake8 = "^3.6"
+isort = "^4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

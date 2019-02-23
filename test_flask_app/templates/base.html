@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    {% block header %}
+        <h1>{{ title }}</h1>
+    {% endblock %}
+
+    <h2 style='color:{{ color }}'>Devs on twitter</h2>
+
+    {% block content %}
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus mauris ac urna vulputate, non maximus velit semper. Nam consectetur ac elit sit amet gravida. Ut vulputate velit quis nisl scelerisque vestibulum. Etiam vehicula ante a molestie sagittis. Suspendisse hendrerit nunc eget massa rutrum feugiat. Aenean ultricies turpis quam, non pretium lectus laoreet quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed at magna et erat tempor dictum. Aenean blandit luctus quam at sollicitudin. Proin luctus maximus eros, a pharetra neque. In sit amet nisi ante. Nulla faucibus scelerisque libero, nec tempus enim mollis in. Morbi aliquet metus interdum viverra vestibulum.
+        </p>
+        <p>
+            Donec rutrum vel ligula id dictum. Sed semper vehicula lectus, at volutpat magna mattis vitae. Proin fringilla, arcu a hendrerit volutpat, enim ex porta ex, quis placerat nisi odio at neque. Aliquam malesuada efficitur ipsum, vel convallis metus mollis et. Praesent vel leo nisl. Nulla facilisi. Morbi posuere condimentum est. Aenean congue tincidunt justo, vitae ornare magna tempor faucibus. Mauris volutpat sapien tellus, id consequat eros rhoncus ut. Integer tempus turpis quis tellus lacinia, vitae volutpat tortor molestie. Sed porta nunc non nunc aliquam, id porttitor nunc ullamcorper. Curabitur id ultricies lectus. Pellentesque id nisi sit amet ligula tristique porttitor vel a augue. Morbi auctor orci nec risus porttitor, mollis scelerisque diam hendrerit.
+        </p>
+    {% endblock %}
+
+    {% block morecontent %}
+    {% endblock %}
+</body>
+</html>

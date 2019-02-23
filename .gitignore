@@ -1,0 +1,6 @@
+.atlas-files
+.env
+docs
+logs
+.venv
+.vscode

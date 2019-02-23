@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: test-flask-app
+Version: 2019.2
+Summary: a test flask app
+Home-page: UNKNOWN
+Author: Natalie Clamp
+Author-email: natalie.clamp@mirrorweb.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0

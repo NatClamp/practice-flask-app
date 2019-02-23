@@ -1,0 +1,8 @@
+{% extends 'index.html' %}
+
+{% block morecontent %}
+<section>
+    <h2>{{ user.name }}, {{ user.age }}</h2>
+    <p>{{ user.job }}, {{ user.company }}</p>
+</section>
+{% endblock %}

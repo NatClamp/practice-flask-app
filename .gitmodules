@@ -1,0 +1,3 @@
+[submodule ".atlas-files"]
+	path = .atlas-files
+	url = git@github.com:mirrorweb/atlas-files.git
